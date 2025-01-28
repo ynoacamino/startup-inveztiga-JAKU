@@ -23,7 +23,7 @@ La startup Inveztiga es una plataforma de enseñanza de aptitudes y habilidades 
 
 ## 🌐 Demo
 
-Puedes probar la version en desplegada en mi servidor [aquí](https://ieee.ynoacamino.site/).
+Puedes probar la version en desplegada en mi servidor [aquí](https://inveztiga.ynoacamino.site/).
 
 ## 📚 Recursos que se utilizaron
 
@@ -37,11 +37,11 @@ Puedes probar la version en desplegada en mi servidor [aquí](https://ieee.ynoac
 - [SQLite](https://www.sqlite.org/docs.html)
 
 ## Estructura del Proyecto
-![Index Page](https://ynoa-uploader.ynoacamino.site/uploads/1738025845_Screenshot%20from%202025-01-27%2019-57-04.png)
+![Index Page](https://ynoa-uploader.ynoacamino.site/uploads/1738040117_Screenshot%20from%202025-01-27%2023-55-03.png)
 
 ## 📷 Capturas de Pantalla
 
-![Index Page](https://ynoa-uploader.ynoacamino.site/uploads/1738011721_Rod_Cutting%20%281%29.png)
+![Index Page](https://ynoa-uploader.ynoacamino.site/uploads/1738041237_Pagina%20principal.webp)
 
 ## 🎯 Ventajas
 
