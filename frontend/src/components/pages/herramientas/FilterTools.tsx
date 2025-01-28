@@ -60,25 +60,25 @@ export default function FilterTools({
         </div>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 w-full gap-x-10 md:gap-x-16 gap-y-20 justify-items-center">
-        {pool.map((herramienta) => (
-          <ToolsModal
-            description={herramienta[ToolsIAFields.DESCRIPTION]}
-            homepage={herramienta[ToolsIAFields.PAGE_URL]}
-            logo={getImageUrl({
-              url: herramienta[ToolsIAFields.LOGO],
-              collectionId: herramienta[ToolsIAFields.COLLECTION_ID],
-              id: herramienta[ToolsIAFields.ID],
-            })}
-            name={herramienta[ToolsIAFields.NAME]}
-            numberLikes={Math.floor(Math.random() * 100)}
-            tags={
-              herramienta[ToolsIAFields.EXPAND]
-                ? herramienta[ToolsIAFields.EXPAND][ToolsIAFields.TAGS]
-                : []
-            }
-            key={herramienta[ToolsIAFields.ID]}
-          />
-        ))}
+        {pool.map((herramienta) => {
+          return (
+            <ToolsModal
+              description={herramienta[ToolsIAFields.DESCRIPTION]}
+              homepage={herramienta[ToolsIAFields.PAGE_URL]}
+              logo={getImageUrl({
+                url: herramienta[ToolsIAFields.LOGO],
+                collectionId: herramienta[ToolsIAFields.COLLECTION_ID],
+                id: herramienta[ToolsIAFields.ID],
+              })}
+              name={herramienta[ToolsIAFields.NAME]}
+              numberLikes={Math.floor(Math.random() * 100)}
+              tags={
+                herramienta[ToolsIAFields.EXPAND]?.[ToolsIAFields.TAGS] ?? []
+              }
+              key={herramienta[ToolsIAFields.ID]}
+            />
+          );
+        })}
       </div>
     </div>
   );
