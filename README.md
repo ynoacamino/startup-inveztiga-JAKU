@@ -1,7 +1,3 @@
-<h1 align="center">
-Actualización: El equipo Inveztiga quedo en 4to lugar en la concurso startups segunda fase WICHARY, de la incobadora JAKU
-</h1>
-
 <div align="center">
 <img
 src="https://ynoa-uploader.ynoacamino.site/uploads/1738028217_jaku-certificate.webp"
